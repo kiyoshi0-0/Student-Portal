@@ -38,8 +38,8 @@ export const initialStudents = [
   {
     id: 4,
     studentId: "STU-2024-004",
-    name: "Emily Watson",
-    email: "emily.watson@university.edu",
+    name: "Danica Rose Subion",
+    email: "danica.subion@university.edu",
     major: "Cybersecurity",
     year: "Freshman",
     gpa: 3.65,
