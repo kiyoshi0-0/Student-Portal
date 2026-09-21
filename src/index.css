@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Directs Tailwind to switch variants based on .dark class on <html> */
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+  
+  body {
+    @apply bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100 transition-colors duration-300;
+  }
+}
